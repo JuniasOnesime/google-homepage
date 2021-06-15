@@ -2,9 +2,9 @@
     display: block;
     position: relative;
     bottom: 300px;
-    top: 240px;
+    top: 230px;
     right: 600px;
-    left: 700px;
+    left: 730px;
 }
 
 #nav-bar{
@@ -13,12 +13,12 @@
     
 }
 .nav-link{
-    padding: 15px;
+    padding: 10px;
     position: relative;
     top: -80px;
     bottom: 0px;
    font-family: 'Poppins';
-   font-size: 16px;
+   font-size: 12px;
    text-decoration: none;
    color: black;
 }
@@ -30,8 +30,35 @@
     border-radius: 5px;
     background-color: #3d7df5;
     color: white;
+    
 }
 .material-icons{
     position: relative;
-    top: 7px;
+    top: -70px;
+    color: black;
+    padding: 10px;
+  
+    width: 20px;
+    height: 20px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.material-icons:hover{
+    text-decoration: none;
+    background-color: rgba(220, 224, 224,0.5);
+    border-radius: 60%;
+}
+#input1{
+    position: relative;
+    bottom: 100px;
+    top: 255px;
+    left: 570px;
+    border-radius: 30px;
+    width: 600px;
+    height: 48px;
+    border-style:solid ;
+}
+#input1:hover{
+    box-shadow: 5px 10px #9699a0;
 }
