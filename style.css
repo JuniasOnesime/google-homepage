@@ -58,7 +58,24 @@
     width: 600px;
     height: 48px;
     border-style:solid ;
+    box-shadow: 0 0 10px rgba(225,225,225, 0.1);
+    
 }
-#input1:hover{
-    box-shadow: 5px 10px #9699a0;
+#input1:hover , #input:focus , #input:active{
+    box-shadow: 0 0 20px rgb(225, 225, 225);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
 }
+.btn2{
+    position: relative;
+    bottom: 100px;
+    top: 330px;
+    left: 100px;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgba(233,235,240, 0.2);
+  
+
+}
+    
