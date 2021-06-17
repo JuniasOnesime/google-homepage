@@ -1,3 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
 #img1{
     display: block;
     position: relative;
@@ -148,6 +159,50 @@
 #form1{
     position: absolute;
 }
+#footer1{
+    position: absolute;
+    background-color: hsla(180, 6%, 87%, 0.61);
+    width: 2000px;
+    height: 70px;
+    bottom: 0px;
+    top: 800px;
+    margin-top: 10px;
+  
 
+}
+.nav-link1{
+    font-family: 'Poppins';
+   font-size: 12px;
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+    position: relative;
+    margin-left: 10px;
+    
+
+}
+.nav-link1:hover{
+    text-decoration: underline;
+}
+#nav-bar2{
+    float: right;
 
     
+}
+.nav-link2{
+    font-family: 'Poppins';
+   font-size: 12px;
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+    position: relative;
+    margin-left: 10px;
+    right: 300px;
+    bottom: 20px;
+    top: 20px;
+   
+    
+}
+.nav-link2:hover{
+    text-decoration: underline;
+}
